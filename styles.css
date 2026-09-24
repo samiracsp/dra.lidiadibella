@@ -285,11 +285,11 @@ body { background: var(--bg); font-family: var(--sans2); font-size: 15px; color:
   .card:nth-child(3) { background: #efe6d8; }
   .card:nth-child(4) { background: #eaeee5; }
   .card:hover { border-color: transparent; }
-  .card .ico { background: #fff; color: var(--madeira); margin: 0 0 auto; width: 46px; height: 46px; }
+  .card .ico { background: #fff; color: var(--madeira); margin: 0 0 26px; width: 46px; height: 46px; }
   .card .ico svg { width: 22px; height: 22px; }
-  .card h3 { margin: 26px 0 8px; }
+  .card h3 { margin: auto 0 8px; }
   .card p { font-size: .84rem; }
-  .card a { margin-top: 16px; letter-spacing: 0; text-transform: none; font-size: .82rem; color: var(--ink); }
+  .card a { margin-top: auto; padding-top: 16px; align-self: flex-start;letter-spacing: 0; text-transform: none; font-size: .82rem; color: var(--ink); }
 
   .steps { background: none; color: #6b5d50; }
   .steps h2, .steps h3 { color: var(--ink); }
